@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+.header{
+    background-image: url(../img/fundo-menu-superior.svg);
+    color: aliceblue;
+}
+.logo{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#superMenuTitle{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+#super-MenuText{
+    margin-left: 150px;
+    margin-top: 35px;
+}
+#menuInformacional{
+    background-color: #eaece5;
+}
