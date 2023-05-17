@@ -67,12 +67,27 @@
             </h1>
             <!---Divisão dos cards-->
             <div id="div-card">
-                <img id="seta-esquerda" class="setas" src="./src/img/icons/seta-esquerda.svg" alt="ERROR">
+                <img id="seta-esquerda" class="setas" src="./src/img/icons/seta-esquerda.svg" alt="ERROR" onclick="rolarParaEsquerda()">
                 <img id="leonardo" class="card" src="./src/cards/leonardo.svg" alt="Card Leonardo">
                 <img id="samantha" class="card" src="./src/cards/samantha.svg" alt="Card Samantha">
                 <img id="bruna" class="card" src="./src/cards/bruna.svg" alt="Card Bruna">
-                <img id="seta-direita" class="setas" src="./src/img/icons/seta-direita.svg" alt="ERROR">
+                <img id="seta-direita" class="setas" src="./src/img/icons/seta-direita.svg" alt="ERROR" onclick="rolarParaDireita()">
             </div>
+        </div>
+
+        <!--Formulario-->
+        <div id="formulario">
+            <h1 id="titulo-formulario">
+                Comece agora mesmo e dê o próximo passo da sua carreira
+            </h1>
+
+            <form action="https://api.sheetmonkey.io/form/nG2WmSviT2MmDaJXrz4wS8" method="post">
+                <input type="text" placeholder="Nome" name="Name" required> <br>
+                <input type="email" placeholder="Email" name="Email" required> <br>
+                <input type="number" placeholder="Telefone" name="Phone"> <br>
+                <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+                <button type="submit">Acesse a ementa grátis</button>
+            </form>
         </div>
     </main>
     <script src="./src/js/script.js"></script>
