@@ -36,3 +36,44 @@
     display: flex;
     align-items: center;
 }
+#tituloVideo{
+    color: #247BA0;
+    margin-top: 50px;
+
+}
+#secaoVideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+#video{
+    margin: 50px 25px 50px 100px;
+}
+#carrosel{
+    background-color: #247BA0;
+    padding: 50px;    
+}
+#titulo-carrosel{
+    color: #fff;
+    text-align: center;
+    /* align-items: center; */
+    font-size: 25px;
+}
+#div-card{
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+}
+.card{
+    margin-left: 50px;
+}
+#seta-esquerda{
+    display: none;
+}
+#bruna{
+    display: none;
+}
+#div-card img.setas{
+    margin-top: 145%;
+    /* align-items: center; */
+}
